@@ -69,7 +69,7 @@ i = 0
 
 password_list = []
 parseList(password_list)
-if password_list.len() < 50
+if len(password_list) < 50:
     print(password_list)
 list_length = len(password_list)
 
